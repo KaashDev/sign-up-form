@@ -38,7 +38,16 @@ span    {
 }
 
 .img-container{
-    
+    flex: 1;
+    height: 100%;
+    overflow: hidden;
+}
+
+.img-container > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .user-info{
@@ -50,6 +59,7 @@ span    {
     color: white;
     width: 45%;
     line-height: 1.5rem;
+    height: 100%;
 }
 
 .user-info p{
@@ -91,9 +101,6 @@ input{
     font: inherit;
 }
 
-input:invalid{
-    border-color: red;
-}
 form button{
     background-color: red;
     color: white;
@@ -110,7 +117,7 @@ a{
 
 .logo-bar{
     background-color: #ffffff3d;
-    width: 32.5%;
+    width: 32.5%    ;
     position: absolute;
     top: 15%;
     display: flex;
