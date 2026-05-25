@@ -91,6 +91,9 @@ input{
     font: inherit;
 }
 
+input:invalid{
+    border-color: red;
+}
 form button{
     background-color: red;
     color: white;
@@ -103,4 +106,20 @@ form button{
 
 a{
     color: red;;
+}
+
+.logo-bar{
+    background-color: #ffffff3d;
+    width: 32.5%;
+    position: absolute;
+    top: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.logo-bar img{
+    width: 80px;
 }
